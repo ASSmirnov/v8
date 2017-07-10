@@ -1,0 +1,48 @@
+.background-image{
+  background: no-repeat center;
+  background-size: 80% 80%;
+  display: block;
+  width: 48px;
+  height: 48px;
+  max-width: 48px;
+}
+
+.vehicles-button{
+  background-image: url("./truck.png");
+}
+
+.times-button{
+  background-image: url("./clock.png");
+}
+
+.compact-content {
+  width: 55px;
+}
+
+.vehicles-body {
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+.times-body {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.vehicles-left-panel{
+  float: left;
+  margin-right: 20px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 400px;
+  padding: 5px
+}
+
+.time{
+  background-image: url("./clock.png");
+}
+
+
+.form-group, label {
+  float: left
+}

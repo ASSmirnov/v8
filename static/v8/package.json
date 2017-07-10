@@ -1,0 +1,53 @@
+{
+  "name": "v8",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "webpack-dev-server --port=4200",
+    "build": "webpack"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4",
+    "jqwidgets-framework": "^4.6.3"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.1.2",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/language-service": "^4.0.0",
+    "@types/jasmine": "2.5.45",
+    "@types/node": "~6.0.60",
+    "ts-node": "~3.0.4",
+    "typescript": "~2.3.3",
+    "webpack-dev-server": "~2.4.5",
+    "webpack": "~2.4.0",
+    "autoprefixer": "^6.5.3",
+    "css-loader": "^0.28.1",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.10.0",
+    "json-loader": "^0.5.4",
+    "less-loader": "^4.0.2",
+    "postcss-loader": "^1.3.3",
+    "postcss-url": "^5.1.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.3",
+    "script-loader": "^0.7.0",
+    "source-map-loader": "^0.2.0",
+    "istanbul-instrumenter-loader": "^2.0.0",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.7"
+  }
+}
